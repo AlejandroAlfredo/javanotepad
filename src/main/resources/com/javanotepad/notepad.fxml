@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="480.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.javanotepad.controllers.NotepadController">
+    <children>
+        <AnchorPane fx:id="pnlBox" prefHeight="480.0" prefWidth="800.0" style="-fx-background-color: #9b9b9b;"
+                    AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                    AnchorPane.topAnchor="0.0"/>
+    </children>
+</AnchorPane>
