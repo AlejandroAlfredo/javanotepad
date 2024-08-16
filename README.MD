@@ -35,7 +35,7 @@ ___
 
 Ahora tenemos todo construido, pero al intentar abrir el programa, observamos que no se abre, esto ocurre porque aunque tenemos instalado Java, nuestro equipo no tiene instalado el runtime de JavaFX. 
 
-## ¿Cómo solucionamos esto?
+### ¿Cómo solucionamos esto?
 Tenemos dos opciones:
 
 - La primera opción es que el equipo destino tenga instalado el runtime de JavaFX.
