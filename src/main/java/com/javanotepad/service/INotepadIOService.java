@@ -1,8 +1,8 @@
-package com.javanotepad.models;
+package com.javanotepad.service;
 
 import java.io.IOException;
 
-public interface INotepadIO {
+public interface INotepadIOService {
 
     void write(String path, String content) throws IOException;
 

@@ -1,8 +1,8 @@
 package com.javanotepad.controllers;
 
 import com.javanotepad.events.WindowsEvent;
-import com.javanotepad.service.INotepad;
-import com.javanotepad.service.SingleNotepad;
+import com.javanotepad.service.INotepadService;
+import com.javanotepad.service.SingleNotepadServiceImpl;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -25,7 +25,7 @@ public class SingleFormController implements Initializable {
     private String tmpPath;
     private String tmpFileName;
     private boolean saved;
-    private INotepad instanceService;
+    private INotepadService instanceService;
 
     @FXML
     private TextArea txtBody;
@@ -53,7 +53,7 @@ public class SingleFormController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        instanceService = new SingleNotepad(txtBody);
+        instanceService = new SingleNotepadServiceImpl(txtBody);
         saved = false;
         tmpFileName = "Empty file";
     }

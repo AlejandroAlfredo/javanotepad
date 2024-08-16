@@ -2,7 +2,7 @@ package com.javanotepad.service;
 
 import java.io.IOException;
 
-public interface INotepad {
+public interface INotepadService {
 
     void openFile(String path) throws IOException;
 

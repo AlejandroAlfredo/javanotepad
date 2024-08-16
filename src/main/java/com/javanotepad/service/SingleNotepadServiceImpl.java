@@ -1,21 +1,19 @@
 package com.javanotepad.service;
 
-import com.javanotepad.models.INotepadIO;
-import com.javanotepad.models.NotepadIO;
 import javafx.scene.control.TextArea;
 
 import java.io.IOException;
 
-public class SingleNotepad implements INotepad {
+public class SingleNotepadServiceImpl implements INotepadService {
 
-    private final INotepadIO instanceNotepad;
+    private final INotepadIOService instanceNotepad;
     private TextArea itemTxt;
 
-    public SingleNotepad() {
-        instanceNotepad = new NotepadIO();
+    public SingleNotepadServiceImpl() {
+        instanceNotepad = new NotepadIOServiceImpl();
     }
 
-    public SingleNotepad(TextArea item) {
+    public SingleNotepadServiceImpl(TextArea item) {
         this();
         this.itemTxt = item;
     }

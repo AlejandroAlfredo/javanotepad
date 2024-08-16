@@ -1,4 +1,4 @@
-package com.javanotepad.models;
+package com.javanotepad.service;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -6,9 +6,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
-public class NotepadIO implements INotepadIO {
+public class NotepadIOServiceImpl implements INotepadIOService {
 
-    public NotepadIO() {
+    public NotepadIOServiceImpl() {
 
     }
 
