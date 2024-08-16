@@ -1,6 +1,7 @@
 module com.javanotepad {
     requires javafx.controls;
     requires javafx.fxml;
+    requires transitive javafx.graphics;
     opens com.javanotepad to javafx.fxml;
     opens com.javanotepad.controllers to javafx.fxml;
     opens com.javanotepad.events to javafx.fxml;

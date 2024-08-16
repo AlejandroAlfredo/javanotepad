@@ -53,7 +53,6 @@ public class SingleFormController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
         instanceService = new SingleNotepad(txtBody);
         saved = false;
         tmpFileName = "Empty file";
