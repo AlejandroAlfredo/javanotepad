@@ -64,7 +64,6 @@
                 <configuration>
                     <mainClass>${exec.mainClass}</mainClass>
                     <stripDebug>true</stripDebug>
-                    <compress>2</compress>
                     <noHeaderFiles>true</noHeaderFiles>
                     <noManPages>true</noManPages>
                     <!--
