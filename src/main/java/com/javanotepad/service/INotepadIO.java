@@ -2,7 +2,7 @@ package com.javanotepad.service;
 
 import java.io.IOException;
 
-public interface INotepadIOService {
+public interface INotepadIO {
 
     void write(String path, String content) throws IOException;
 

@@ -6,9 +6,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
-public class NotepadIOServiceImpl implements INotepadIOService {
+public class NotepadIOImpl implements INotepadIO {
 
-    public NotepadIOServiceImpl() {
+    public NotepadIOImpl() {
 
     }
 

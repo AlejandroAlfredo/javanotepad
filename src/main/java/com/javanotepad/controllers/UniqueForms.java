@@ -1,6 +1,7 @@
-package com.javanotepad.util;
+package com.javanotepad.controllers;
 
 import com.javanotepad.App;
+
 import java.io.IOException;
 import javafx.scene.layout.AnchorPane;
 

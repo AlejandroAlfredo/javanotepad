@@ -6,11 +6,11 @@ import java.io.IOException;
 
 public class SingleNotepadServiceImpl implements INotepadService {
 
-    private final INotepadIOService instanceNotepad;
+    private final INotepadIO instanceNotepad;
     private TextArea itemTxt;
 
     public SingleNotepadServiceImpl() {
-        instanceNotepad = new NotepadIOServiceImpl();
+        instanceNotepad = new NotepadIOImpl();
     }
 
     public SingleNotepadServiceImpl(TextArea item) {

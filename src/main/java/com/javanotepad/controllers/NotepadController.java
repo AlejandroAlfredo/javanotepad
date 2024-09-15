@@ -1,7 +1,5 @@
 package com.javanotepad.controllers;
 
-import com.javanotepad.util.IForms;
-import com.javanotepad.util.UniqueForms;
 import javafx.fxml.FXML;
 import javafx.scene.layout.AnchorPane;
 

@@ -68,6 +68,7 @@ public class SingleFormController implements Initializable {
                 new FileChooser.ExtensionFilter("Text", "*.txt"),
                 new FileChooser.ExtensionFilter("All", "*.*")
         );
+
         File file = fc.showOpenDialog(stage);
         if (file != null) {
             try {

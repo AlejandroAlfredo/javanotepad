@@ -1,4 +1,4 @@
-package com.javanotepad.util;
+package com.javanotepad.controllers;
 
 import javafx.scene.layout.AnchorPane;
 
