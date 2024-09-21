@@ -65,7 +65,7 @@
 					<mainClass>${exec.mainClass}</mainClass>
 					<!-- <launcher>name_launcher</launcher> -->
 					 <jlinkImageName>runtime</jlinkImageName> 
-					<!-- <jlinkZipName>java</jlinkZipName> -->
+					<!-- <jlinkZipName>runtime</jlinkZipName> -->
 				</configuration>
 				<executions>
 					<execution>
