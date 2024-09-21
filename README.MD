@@ -31,5 +31,15 @@ mvn package
 
 ___
 
+### Screenshot
+<p>
+<img src="Screenshot/JavaNotepad.png" width="580" alt="JavaNotepad" />
+</p>
 
+<p>
+<img src="Screenshot/FileDialog.png" width="580" alt="FileDialog"/>
+</p>
 
+<p>
+<img src="Screenshot/DragAndDropAFile.png" width="580" alt="Drag and Drop File"/>
+</p>
