@@ -1,6 +1,6 @@
 package com.javanotepad.controllers;
 
-import com.javanotepad.App;
+import com.javanotepad.JavaNotepad;
 
 import java.io.IOException;
 import javafx.scene.layout.AnchorPane;
@@ -16,7 +16,7 @@ public class UniqueForms implements IForms {
                 return;
             }
             activeFXML = fxml;
-            AnchorPane childPane = (AnchorPane) App.loadFXML(fxml);
+            AnchorPane childPane = (AnchorPane) JavaNotepad.loadFXML(fxml);
             AnchorPane.setTopAnchor(childPane, 0d);
             AnchorPane.setLeftAnchor(childPane, 0d);
             AnchorPane.setRightAnchor(childPane, 0d);

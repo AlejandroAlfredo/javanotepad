@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class App extends Application {
+public class JavaNotepad extends Application {
 
     private static Scene scene;
 
@@ -33,11 +33,11 @@ public class App extends Application {
     }
 
     public static Parent loadFXML(String fxml) throws IOException {
-        FXMLLoader loader = new FXMLLoader(App.class.getResource(fxml + ".fxml"));
+        FXMLLoader loader = new FXMLLoader(JavaNotepad.class.getResource(fxml + ".fxml"));
         return loader.load();
     }
 
-    public static void main(String[] args) {
-        launch();
+    public static void run(String[] args) {
+        launch(args);
     }
 }
